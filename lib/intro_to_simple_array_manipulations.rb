@@ -43,7 +43,7 @@ array.uniq
   end
   
   def using_delete_at(array, int)
-    array[int].delete
+    array.delete_at(2)
   end
   
   
